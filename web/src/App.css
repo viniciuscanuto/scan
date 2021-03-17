@@ -1,0 +1,33 @@
+container {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 1rem;
+  background-color: black;
+}
+
+header div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  padding: 0.4rem 0.7rem;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  transition: 0.2s;
+}
+
+.button-connect:hover {
+  background-color: #3ef744;
+}
+
+.button-disconnect:hover {
+  background-color: #e1121d;
+}
